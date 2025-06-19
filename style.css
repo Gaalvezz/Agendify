@@ -1,0 +1,54 @@
+*{
+ box-sizing: border-box;
+}  
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+} 
+
+.formulario{
+background-color: rgb(229, 235, 240);
+border-radius: 10px;
+max-width: 450px;
+width: 100%;
+padding: 30px 30px;
+}
+
+.formulario-titulo{
+text-align: center;
+margin-bottom: 30px;
+}
+
+label{
+font-weight: bold;
+margin-top: 30px;
+display: block;
+}
+.campo{
+width: 100%;
+padding: 10px;
+margin-top: 5px;
+border-radius: 5px;
+border: 2px solid #07305f;
+}
+
+.concordo-termo{
+display: flex;
+padding-left: 25px;
+}
+
+
+.Cadastro{
+width: 100%;
+height: 40px;
+border-radius: 10px;
+background-color:rgb(114, 114, 145) ;
+color: azure;
+font-size: 17px;
+cursor: pointer;
+}
+.Cadastro:hover{
+background-color: #07305f;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8" />
+<title>Pagina Cadastro </title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form class="formulario" method="post" action="informar o endenreco do server" autocomplete="off" onsubmit="alert('CADASTRO CONCLUIDO!');" >
+      <h1 class="formulario-titulo">Cadastro</h1>
+
+      <label for="nome">Nome:</label>
+      <input type="text" class="campo" placeholder="Informe seu nome" required>
+
+       <label for="nome">Sobrenome:</label>
+      <input type="text" class="campo" placeholder="Informe seu sobrenome" required>
+
+
+
+      <label for="Telefone">Telefone:</label>
+      <input type="tel" class="campo" placeholder="(xx) xxxxx-xxxx" required min="0">
+      
+      <label for="senha">Senha</label>
+      <input type="password" class="campo" placeholder="Informe sua senha" required min="0">
+
+       <label for="senha">Confirmar Senha</label>
+      <input type="password" class="campo" placeholder="Confirmacao de senha" required min="0">
+
+        <div class="concordo-termo">
+             <input type="checkbox" value=""required> 
+        <p>eu concordo com os <strong>termos</strong></p >
+        
+        </div>
+       
+
+
+
+
+        <button type="submit" value="button" class="Cadastro" id="Cadastro">CADASTRAR</button>
+    </form>
+
+</body>
+</html>
